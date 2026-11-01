@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OPTITEK · Redes de fibra óptica y celulares en Panamá</title>
+  <meta name="description" content="OPTITEK diseña, construye y certifica redes FTTH, troncales, backbone y celulares en Panamá. Empresa certificada ISO 9001:2015." />
+  <meta name="theme-color" content="#001431" />
+  <script>document.documentElement.classList.add("js");</script>
+  <meta property="og:title" content="OPTITEK · Redes de fibra óptica y celulares en Panamá" />
+  <meta property="og:description" content="Redes de fibra que se entregan a tiempo y con calidad certificada." />
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Montserrat:wght@600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20261101" />
+
+  <script defer src="lib/manifest.js?v=20261101"></script>
+  <script defer src="main.js?v=20261101"></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- Splash: CSS safety net at 4.5s + JS hide -->
+  <div class="splash" data-splash aria-hidden="true">
+    <div class="splash-line"><span></span></div>
+    <img src="assets/brand/logo-blanco.png" alt="" width="842" height="126" class="splash-logo" />
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" data-nav>
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo" aria-label="OPTITEK, volver al inicio">
+        <img src="assets/brand/logo-blanco.png" alt="OPTITEK" width="842" height="126" class="logo-neg" />
+        <img src="assets/brand/logo-azul.png" alt="" width="842" height="126" class="logo-pos" aria-hidden="true" />
+      </a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#nosotros">Quiénes somos</a>
+        <a href="#iso">Certificación</a>
+      </nav>
+      <a href="#contacto" class="btn btn-sm btn-signal nav-cta">Solicitar propuesta</a>
+      <button class="nav-burger" data-burger aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="menu-movil" data-mobile-menu>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#nosotros">Quiénes somos</a>
+      <a href="#iso">Certificación</a>
+      <a href="#contacto" class="btn btn-signal">Solicitar propuesta</a>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <canvas class="hero-fiber" data-fiber aria-hidden="true"></canvas>
+      <div class="hero-glow" data-glow aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="wrap hero-inner">
+        <p class="kicker hero-kicker" data-in style="--d:0">
+          <span class="status-dot"></span>
+          Fibra óptica · Redes celulares · Panamá
+        </p>
+        <h1 class="hero-title">
+          <span class="line" data-in style="--d:1"><span>Redes de fibra</span></span>
+          <span class="line" data-in style="--d:2"><span>que se entregan</span></span>
+          <span class="line" data-in style="--d:3"><span><em>a tiempo</em> y con</span></span>
+          <span class="line" data-in style="--d:4"><span>calidad certificada.</span></span>
+        </h1>
+        <div class="hero-foot">
+          <p class="hero-sub" data-in style="--d:5">
+            Diseñamos, construimos y probamos redes FTTH, troncales y backbone para proveedores de servicios y corporaciones.
+          </p>
+          <div class="hero-actions" data-in style="--d:6">
+            <a href="#contacto" class="btn btn-signal" data-magnetic>Solicitar propuesta <span class="arrow" aria-hidden="true">→</span></a>
+            <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-readout" aria-hidden="true">
+        <div><span class="mono-label">λ</span><span class="mono" data-readout="nm">1550 nm</span></div>
+        <div><span class="mono-label">Pérdida</span><span class="mono" data-readout="db">0,25 dB/km</span></div>
+        <div><span class="mono-label">Estado</span><span class="mono ok">● Enlace activo</span></div>
+      </div>
+      <a href="#cifras" class="hero-scroll" aria-label="Bajar a las cifras"><span></span></a>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" id="cifras" aria-label="OPTITEK en cifras">
+      <div class="wrap stats-grid">
+        <article class="stat reveal">
+          <p class="stat-num"><span data-count="40">40</span><sup>+</sup></p>
+          <p class="stat-label">años de experiencia acumulada en técnica y administración</p>
+        </article>
+        <article class="stat reveal">
+          <p class="stat-num"><sup class="tilde">~</sup><span data-count="100">100</span></p>
+          <p class="stat-label">proyectos de red ejecutados cada año</p>
+        </article>
+        <article class="stat reveal">
+          <p class="stat-num"><span data-count="400000" data-sep=".">400.000</span><small>m</small></p>
+          <p class="stat-label">de fibra instalada al año, aérea y subterránea</p>
+        </article>
+        <article class="stat reveal">
+          <p class="stat-num"><span data-count="80">80</span><sup>+</sup></p>
+          <p class="stat-label">certificaciones técnicas activas en el personal</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>FTTH</span><i></i><span>Backbone</span><i></i><span>RAN &amp; small cell</span><i></i><span>Microonda</span><i></i><span>Planta externa</span><i></i><span>Cableado estructurado</span><i></i><span>Testing OTDR</span><i></i><span>Tiger Team</span><i></i>
+        <span>FTTH</span><i></i><span>Backbone</span><i></i><span>RAN &amp; small cell</span><i></i><span>Microonda</span><i></i><span>Planta externa</span><i></i><span>Cableado estructurado</span><i></i><span>Testing OTDR</span><i></i><span>Tiger Team</span><i></i>
+      </div>
+    </div>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="servicios">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">01 — Servicios</p>
+          <h2 class="section-title reveal">Del diseño a la red <em>en servicio</em>.</h2>
+          <p class="section-lede reveal">Un solo equipo responde por todo el ciclo de vida de la red. Menos interlocutores, menos traspasos, menos riesgo para tu calendario.</p>
+        </header>
+
+        <div class="svc-filter" role="tablist" aria-label="Filtrar servicios">
+          <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">Todos <span>12</span></button>
+          <button class="chip" data-filter="fibra" role="tab" aria-selected="false">Fibra óptica</button>
+          <button class="chip" data-filter="movil" role="tab" aria-selected="false">Redes celulares</button>
+          <button class="chip" data-filter="gestion" role="tab" aria-selected="false">Gestión y soporte</button>
+        </div>
+
+        <ol class="svc-list" data-svc-list>
+          <li class="svc" data-cat="fibra">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">01</span><span class="svc-name">Survey y diseño</span><span class="svc-tag">Fibra</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Levantamiento en campo, factibilidad e ingeniería de red. Entregamos planos y memorias listos para construir: rutas, cálculo de pérdidas y cantidades de obra.</p><ul class="svc-spec"><li>FTTH</li><li>Troncal</li><li>Backbone</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="fibra">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">02</span><span class="svc-name">Construcción</span><span class="svc-tag">Fibra</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Despliegue de redes aéreas y subterráneas con cuadrillas propias, supervisión permanente y control de calidad en cada tramo.</p><ul class="svc-spec"><li>Tendido</li><li>Empalme</li><li>Instalación</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="fibra">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">03</span><span class="svc-name">Planta externa, obra civil FTTH y F.O.</span><span class="svc-tag">Fibra</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Canalización, ductería, cámaras y postería. La obra civil que sostiene la red, ejecutada con los permisos y la señalización que exige cada municipio.</p><ul class="svc-spec"><li>Canalización</li><li>Ductos</li><li>Cámaras</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="fibra">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">04</span><span class="svc-name">Planta interna y cableado estructurado</span><span class="svc-tag">Fibra</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Salas de equipos, racks, distribución en edificios y cableado estructurado para corporaciones, documentado y certificado punto por punto.</p><ul class="svc-spec"><li>Racks</li><li>ODF</li><li>Cat 6A</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="fibra">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">05</span><span class="svc-name">Testing</span><span class="svc-tag">Fibra</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Pruebas de aceptación con reporte por enlace. Cada hilo se mide antes de entregarse, para que la red funcione desde el primer día.</p><ul class="svc-spec"><li>OTDR</li><li>Power meter</li><li>1310 / 1550 nm</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="movil">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">06</span><span class="svc-name">RF, optimización y planificación</span><span class="svc-tag">Celular</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Planificación de cobertura y capacidad, drive tests y ajuste de parámetros para redes móviles que rinden lo que prometen.</p><ul class="svc-spec"><li>Drive test</li><li>KPI</li><li>Cobertura</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="movil">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">07</span><span class="svc-name">RAN y small cell</span><span class="svc-tag">Celular</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Instalación e integración de sitios de acceso radio y small cells para densificar la red donde más se necesita.</p><ul class="svc-spec"><li>Macro</li><li>Small cell</li><li>Integración</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="movil">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">08</span><span class="svc-name">Microonda</span><span class="svc-tag">Celular</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Enlaces de transmisión punto a punto: estudio de línea de vista, instalación, alineación y puesta en servicio.</p><ul class="svc-spec"><li>Línea de vista</li><li>Alineación</li><li>Backhaul</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="gestion">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">09</span><span class="svc-name">Gerencia de proyectos</span><span class="svc-tag">Gestión</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Un responsable único por proyecto: cronograma, costos, riesgos y reportes de avance para que siempre sepas dónde está tu red.</p><ul class="svc-spec"><li>Cronograma</li><li>Costos</li><li>Reportes</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="gestion">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">10</span><span class="svc-name">Real estate</span><span class="svc-tag">Gestión</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Búsqueda y negociación de sitios, servidumbres y permisos: el trabajo previo que define si una obra arranca a tiempo.</p><ul class="svc-spec"><li>Sitios</li><li>Permisos</li><li>Servidumbres</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="gestion">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">11</span><span class="svc-name">Tiger Team</span><span class="svc-tag">Gestión</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Equipo de respuesta rápida para incidencias críticas, restauraciones y frentes que no admiten espera.</p><ul class="svc-spec"><li>Restauración</li><li>Urgencias</li><li>24/7</li></ul></div></div>
+          </li>
+          <li class="svc" data-cat="gestion">
+            <button class="svc-head" aria-expanded="false">
+              <span class="svc-num">12</span><span class="svc-name">Proyectos especiales y bodega</span><span class="svc-tag">Gestión</span><span class="svc-plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc-body"><div><p>Soluciones a medida para requerimientos fuera de lo común, respaldadas por bodega propia con seguridad y bajo techo para resguardar materiales y equipos.</p><ul class="svc-spec"><li>A medida</li><li>Bodega segura</li><li>Logística</li></ul></div></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process" id="proceso">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">02 — Proceso</p>
+          <h2 class="section-title reveal">Un hilo continuo, <em>de punta a punta</em>.</h2>
+        </header>
+        <div class="process-track" data-process>
+          <div class="process-line" aria-hidden="true"><span data-process-fill></span></div>
+          <ol class="process-steps">
+            <li class="step reveal"><span class="step-node"></span><span class="mono step-code">P-01</span><h3>Survey</h3><p>Recorremos la ruta y validamos la factibilidad en campo.</p></li>
+            <li class="step reveal"><span class="step-node"></span><span class="mono step-code">P-02</span><h3>Diseño</h3><p>Ingeniería, planos y presupuesto de pérdidas por enlace.</p></li>
+            <li class="step reveal"><span class="step-node"></span><span class="mono step-code">P-03</span><h3>Construcción</h3><p>Obra civil, tendido y empalme con supervisión diaria.</p></li>
+            <li class="step reveal"><span class="step-node"></span><span class="mono step-code">P-04</span><h3>Testing</h3><p>Medición de cada hilo y reporte de aceptación.</p></li>
+            <li class="step reveal"><span class="step-node"></span><span class="mono step-code">P-05</span><h3>En servicio</h3><p>Entrega documentada y soporte cuando haga falta.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="nosotros">
+      <div class="wrap about-grid">
+        <div class="about-main">
+          <p class="kicker">03 — Quiénes somos</p>
+          <h2 class="section-title reveal">Una empresa panameña que <em>conoce la red</em> desde adentro.</h2>
+          <p class="about-text reveal">Somos personal experto en instalación, pruebas, diseño y administración de redes de fibra óptica. Nuestro equipo acumula más de 40 años de experiencia en áreas técnicas y administrativas. Así garantizamos que cada trabajo se entregue en tiempo y calidad, según lo que pide el cliente.</p>
+          <ul class="about-pills reveal">
+            <li>Fibra óptica</li><li>Redes celulares</li><li>Control de calidad</li>
+          </ul>
+        </div>
+        <div class="about-cards">
+          <article class="vm-card reveal" data-tilt>
+            <span class="mono vm-label">Visión</span>
+            <p>Ser una empresa líder en el despliegue de soluciones de infraestructura tecnológica, reconocida por su capacidad y la calidad de sus entregables.</p>
+          </article>
+          <article class="vm-card reveal" data-tilt>
+            <span class="mono vm-label">Misión</span>
+            <p>Ser el socio de negocios preferido para implementar redes de telecomunicaciones de banda ancha y soluciones inalámbricas para aplicaciones de alta disponibilidad.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VALUES ============ -->
+    <section class="values" aria-labelledby="valores-title">
+      <div class="wrap">
+        <header class="section-head section-head--row">
+          <div>
+            <p class="kicker">04 — Valores</p>
+            <h2 class="section-title reveal" id="valores-title">Cómo trabajamos <em>en cada obra</em>.</h2>
+          </div>
+        </header>
+        <div class="values-grid">
+          <article class="value reveal"><span class="mono">V.01</span><h3>Mejoramiento continuo</h3><p>De nuestros colaboradores, procesos y servicios.</p></article>
+          <article class="value reveal"><span class="mono">V.02</span><h3>Calidad</h3><p>En cada uno de nuestros servicios.</p></article>
+          <article class="value reveal"><span class="mono">V.03</span><h3>Cadena de suministro</h3><p>Materiales y equipos disponibles cuando la obra los pide.</p></article>
+          <article class="value reveal"><span class="mono">V.04</span><h3>Readiness</h3><p>Cuadrillas preparadas para movilizarse sin demoras.</p></article>
+          <article class="value reveal"><span class="mono">V.05</span><h3>Transparencia</h3><p>En nuestro comportamiento con clientes y proveedores.</p></article>
+          <article class="value reveal"><span class="mono">V.06</span><h3>Honestidad</h3><p>En nuestras decisiones y acciones.</p></article>
+          <article class="value reveal"><span class="mono">V.07</span><h3>Respeto</h3><p>Entre nosotros, con clientes, con el entorno.</p></article>
+          <article class="value reveal"><span class="mono">V.08</span><h3>Eficiencia</h3><p>En nuestra gestión interna y externa.</p></article>
+          <article class="value reveal"><span class="mono">V.09</span><h3>Puntualidad</h3><p>En la entrega de cada servicio.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ISO ============ -->
+    <section class="iso" id="iso">
+      <div class="wrap iso-grid">
+        <div>
+          <p class="kicker kicker--dark">05 — Certificación</p>
+          <h2 class="section-title reveal">La calidad es un compromiso <em>de todo el equipo</em>.</h2>
+          <p class="iso-text reveal">Ese enfoque se extiende a nuestros contratistas en cada proyecto. Operamos con un sistema de gestión de calidad certificado desde 2020.</p>
+          <dl class="iso-meta reveal">
+            <div><dt class="mono">Alcance</dt><dd>Soluciones de fibra óptica, implementación y optimización de redes móviles y de acceso.</dd></div>
+            <div><dt class="mono">Certificado por</dt><dd>STAREGISTER, acreditado por IAF e IAS.</dd></div>
+          </dl>
+        </div>
+        <div class="iso-badge-wrap">
+          <div class="iso-badge" data-tilt>
+            <svg class="iso-ring" viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="ring" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" /></defs>
+              <text><textPath href="#ring" textLength="486" lengthAdjust="spacing">SISTEMA DE GESTIÓN DE CALIDAD · CERTIFICADO · ISO 9001 ·</textPath></text>
+            </svg>
+            <div class="iso-core">
+              <span class="iso-small mono">ISO</span>
+              <span class="iso-big">9001</span>
+              <span class="iso-small mono">: 2015</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contacto">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <p class="kicker">06 — Contacto</p>
+          <h2 class="contact-title reveal">¿Tienes una red <em>por construir</em>?</h2>
+          <p class="contact-lede reveal">Cuéntanos el alcance y te enviamos una propuesta técnica y económica.</p>
+          <a class="contact-mail" href="mailto:coordinador@optitek.biz">coordinador@optitek.biz</a>
+          <ul class="contact-list mono">
+            <li><span>Operaciones</span><a href="mailto:optitek-operaciones@optitek.biz">optitek-operaciones@optitek.biz</a></li>
+            <li><span>Web</span><a href="https://optitek.biz/" target="_blank" rel="noopener">optitek.biz</a></li>
+            <li><span>Base</span>Panamá</li>
+          </ul>
+        </div>
+
+        <form class="form" data-form novalidate>
+          <div class="field">
+            <label for="f-nombre">Nombre y cargo</label>
+            <input id="f-nombre" name="nombre" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="f-empresa">Empresa</label>
+            <input id="f-empresa" name="empresa" type="text" autocomplete="organization" required />
+          </div>
+          <div class="field">
+            <label for="f-email">Correo corporativo</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <fieldset class="field field--chips">
+            <legend>Tipo de proyecto</legend>
+            <label class="pick"><input type="radio" name="tipo" value="FTTH / Fibra" checked /><span>FTTH / Fibra</span></label>
+            <label class="pick"><input type="radio" name="tipo" value="Redes celulares" /><span>Redes celulares</span></label>
+            <label class="pick"><input type="radio" name="tipo" value="Cableado estructurado" /><span>Cableado</span></label>
+            <label class="pick"><input type="radio" name="tipo" value="Otro" /><span>Otro</span></label>
+          </fieldset>
+          <div class="field">
+            <label for="f-msg">Alcance del proyecto</label>
+            <textarea id="f-msg" name="mensaje" rows="4" placeholder="Ubicación, metros estimados, plazos…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-signal btn-block">
+            <span class="btn-label">Enviar solicitud</span>
+            <svg class="btn-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7" /></svg>
+          </button>
+          <p class="form-note" data-form-note role="status" aria-live="polite">Se abrirá tu correo con la solicitud lista para enviar.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <img src="assets/brand/logo-blanco.png" alt="OPTITEK" width="842" height="126" class="footer-logo" loading="lazy" />
+        <p class="footer-claim">Infraestructura que mueve la información.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> OPTITEK S.A. · Panamá</p>
+        <p class="mono">ISO 9001:2015 · STAREGISTER</p>
+        <a href="#inicio" class="footer-top-link">Volver arriba ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
